@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+.header{
+    padding: 10px 15px 0px 15px;
+    background-color: #ffffff9d;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 140px;
+}
+.name{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.name span{
+    font-weight: 700;
+}
+.hamburger{
+    font-size: 24px;
+    cursor: pointer;
+}
+.hr1{
+    margin-bottom: -1px;
+}
+.butt{
+    margin-left: 125px;
+    display: flex;
+    justify-content: center;
+}
+.bt{
+    padding: 10px;
+}
+.bt:hover{
+    padding: 10px;
+    border-top: 3px solid #18B9E5;
+}
+.bt a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
