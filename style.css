@@ -169,4 +169,46 @@ p{
     left: 20px;
     font-size: 22px;
 }
-
+.flex1{
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.rfi{
+    align-items: center;
+    margin: 50px 10px;
+    padding: 20px;
+    border-radius: 35px;
+    width: 400px;
+    display: flex;
+    background-color: #ffffff;
+}
+.flex1 img{
+    border-radius: 25px;
+}
+.flex1 p{
+    padding: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+.flex2{
+    width: 1000px;
+    height: 320px;
+    margin: auto;
+    display: flex;
+}
+.div1, .div2, .div3{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 0px 20px;
+    align-items: center;
+}
+.flex2 h4{
+    text-align: center;
+    padding: 50px 10px;
+}
+.flex2 h3{
+    text-align: center;
+}
