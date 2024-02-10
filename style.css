@@ -1,10 +1,15 @@
 body{
     margin: 0px;
     background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*header start*/
 .header{
+    position: sticky;
+    top: 0px;
     padding: 10px 15px 0px 15px;
-    background-color: #ffffff9d;
+    background-color: #ffffffcc;
+    z-index: 1;
 }
 .content{
     display: flex;
@@ -47,3 +52,121 @@ body{
     color: black;
     text-decoration: none;
 }
+/*Hero Start*/
+.hero{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 28px;
+}
+.pic img{
+    width: 80%;
+    padding-left: 50px;
+}
+p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/*Grid Start*/
+.grid{
+    padding: 120px 0 60px 0;
+    margin: auto;
+    width: 100%;
+}
+.text2{
+    margin: auto;
+    width: 400px;
+    padding-bottom: 100px;
+}
+.grid-items{
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 300px;
+    justify-content: center;
+    gap: 20px;
+}
+.item1{
+    position: relative;
+    width: 100%;
+    height: 300PX;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+.item1 video{
+    width: 100%;
+    height: 300PX;
+    border-radius: 35px;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item1 > .text{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 22px;
+}
+.item2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+.item2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+.item2 > .text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 22px;
+}
+.item3 img{
+    border-radius: 35px;
+}
+.item3{
+    position: relative;
+}
+.item3 > .text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 22px;
+    color: white;
+}
+.item4{
+    position: relative;
+}
+.item4 img{
+    border-radius: 35px;
+}
+.item4 > .text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 22px;
+}
+.item5{
+    position: relative;
+}
+.item5 img{
+    border-radius: 35px;
+}
+.item5 > .text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 22px;
+}
+
