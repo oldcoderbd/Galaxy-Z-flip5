@@ -200,10 +200,12 @@ p{
     display: flex;
 }
 .div1, .div2, .div3{
+    width: 500px;
     background-color: #ffffff;
     margin: 10px;
     padding: 0px 20px;
     align-items: center;
+    border-radius: 35px;
 }
 .flex2 h4{
     text-align: center;
@@ -212,3 +214,42 @@ p{
 .flex2 h3{
     text-align: center;
 }
+.down{
+    padding: 40px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.down a{
+    font-size: 40px;
+    color: rgb(134, 134, 134);
+}
+
+/*Flex Window Start*/
+
+.flex-window{
+    margin: auto;
+    width: 1440px;
+    background-color: #FEFEFE;
+    border-radius: 35px 35px 0px 0px;
+}
+.vid video{
+    width: 1440px;
+    border-radius: 35px 35px 0px 0px;
+}
+.h-p{
+    padding-left: 200px;
+    width: 850px;
+    background-color: #FEFEFE;
+}
+.h-p h1{
+    width: 810px;
+    font-size: 65px;
+    margin: 0px;
+}
+.h-p p{
+    width: 380px;
+    text-align: left;
+}
+
+/*Pocket Start*/
